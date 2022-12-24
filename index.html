@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Mesto</title>
+</head>
+<body class="body">
+    <div class="page">
+        <div class="popup popup_opened">
+            <form action="mailto:lalkalolkova@yandex.ru" enctype="text/plain" class="popup__container">
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <input type="text" name="name" placeholder="Жак-Ив Кусто" class="popup__field">
+                <input type="text" name="about-me" placeholder="Исследователь океана" class="popup__field">
+                <button class="popup__button">Сохранить</button>
+                <img src="images/Close-Icon.svg" alt="Закрыть" class="popup__close-button">
+            </form>
+        </div>
+        <header class="header">
+            <div class="logo">
+                <img src="images/Like.svg" alt="Кусто" class="logo__image">
+            </div>
+        </header>
+        <main>
+            <section class="profile">
+                <div class="profile__image"></div>
+                <div class="profile__info">
+                    <div class="profile__title">
+                        <h2 class="profile__heading">Жак-Ив Кусто</h2>
+                        <img src="images/Edit-Button.svg" alt="Редактировать" class="profile__edit-button">
+                    </div>                    
+                    <p class="profile__description">Исследователь океана</p>
+                </div>
+                <div class="profile__add-button"></div>
+            </section>
+            <section class="elements">
+                <div class="element">
+                    <img src="images/1.jpg" alt="Карачаевск" class="element__image">
+                    <div class="element__background">
+                        <p class="element__caption">Карачаевск</p>
+                        <img src="images/Vector.svg" alt="Лайк" class="element__like">
+                    </div>                    
+                </div>
+                <div class="element">
+                    <img src="images/2.jpg" alt="Гора Эльбрус" class="element__image">
+                    <div class="element__background">
+                        <p class="element__caption">Гора Эльбрус</p>
+                        <img src="images/Vector.svg" alt="Лайк" class="element__like">
+                    </div>                    
+                </div>
+                <div class="element">
+                    <img src="images/3.jpg" alt="Домбай" class="element__image">
+                    <div class="element__background">
+                        <p class="element__caption">Домбай</p>
+                        <img src="images/Vector.svg" alt="Лайк" class="element__like">
+                    </div>                    
+                </div>
+                <div class="element">
+                    <img src="images/4.jpg" alt="Гора Эльбрус" class="element__image">
+                    <div class="element__background">
+                        <p class="element__caption">Гора Эльбрус</p>
+                        <img src="images/Vector.svg" alt="Лайк" class="element__like">
+                    </div>                    
+                </div>
+                <div class="element">
+                    <img src="images/5.jpg" alt="Домбай" class="element__image">
+                    <div class="element__background">
+                        <p class="element__caption">Домбай</p>
+                        <img src="images/Vector.svg" alt="Лайк" class="element__like">
+                    </div>                    
+                </div>
+                <div class="element">
+                    <img src="images/6.jpg" alt="Карачаево-Ч..." class="element__image">
+                    <div class="element__background">
+                        <p class="element__caption">Карачаево-Черкесия</p>
+                        <img src="images/Vector.svg" alt="Лайк" class="element__like">
+                    </div>                    
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">© 2020 Mesto Russia</p>
+        </footer>
+    </div>
+</body>
+</html>
