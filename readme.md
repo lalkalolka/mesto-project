@@ -8,4 +8,4 @@
 - CSS.
 
 ## Ссылка
-https://lalkalolka.github.io/mesto-project/
+https://lalkalolka.github.io/mesto
